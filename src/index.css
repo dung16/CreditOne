@@ -1,0 +1,138 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.table-css{
+  background: #ffff;
+
+}
+.search{
+  max-width: 200px;
+}
+.mt-1{
+  margin-top: 10px;
+}
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+.fa-id-card,.fa-heartbeat,.fa-phone-square-alt{
+  font-size: 2rem;
+}
+.login-res{
+  font-size: 1rem;
+}
+.login{
+  width: 100%;
+  height: 100%;
+}
+.form-ask-pass{
+  position: relative;
+}
+.form-ask-pass-info{
+  position: absolute;
+  min-width: 20rem;
+  z-index: 999;
+  background:#ffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+.form-ask-pass:hover .form-ask-pass-info{
+  display: inherit;
+}
+button:focus {
+  outline: none;
+  outline: none !important;
+}
+
+
+
+.box_ft {
+  background-color: #3a5597;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-radius: 15px;
+  max-height: 116px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+}
+.box_ft .txt {
+  width: 98%;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+  margin-top: -8px;
+  font-weight: 900;
+  font-size: 17px;
+  white-space: nowrap;
+}
+.box_ft .phone_hotline {
+  color: #fff;
+  font-size: 3rem;
+  position: relative;
+  margin-top: 5px;
+}
+
+.block_span{
+  color: #3a5596;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.active-rule:hover{
+  color: #f83e14;
+
+}
+.don-mua:hover{
+  border-bottom: solid 2px  #f83e14;
+}
+.inhoa{
+  text-transform: uppercase;
+}
+.table-bordered td, .table-bordered th {
+  /* border: 1px solid rgb(56, 55, 55); */
+  font-size: 14px;
+}
+.imgLogoLogin >img{
+  width: 100%;
+}
+.owl-dots{
+  margin-top: 3rem;
+}
+.owl-carousel {
+  touch-action: manipulation; 
+}
+.owl-theme .owl-dots .owl-dot.active span{
+  height: 12px;
+  width: 72px;
+  background: #EE4623 !important;
+  border-radius: 20px;
+}
+
